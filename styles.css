@@ -2,9 +2,11 @@
   font-family: helvetica;
 }
 
+/* header */
+
 .header-container {
   display: flex;
-  background-color: #808080;
+  background-color: #BDBDBD;
   padding: 20px 0px 20px 100px;
   justify-content: space-between;
 }
@@ -27,9 +29,11 @@
   color: white;
 }
 
+/* hero */
+
 .hero-container {
   display: flex;
-  background-color: #808080;
+  background-color: #BDBDBD;
   justify-content: space-between;
 }
 
@@ -63,4 +67,63 @@
   width: 900px;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+/*content*/
+
+/* the bois */
+
+.the-bois-container {
+  display: flex;
+  background-color: #9E9E9E;
+  justify-content:center;
+  align-items:center;
+}
+
+#the-bois-header {
+  display: flex;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.the-bois-list{
+  display: flex;
+  list-style: none;
+  margin-top: 100px;
+  margin-right: 80px;
+  padding-bottom: 50px;
+  gap: 60px;
+  font-size: 18px;
+  text-align:center;
+}
+
+.cakeracoon {
+  display: flex;
+  height: 150px;
+  border: 4px solid #212121;
+  border-radius: 15px;
+}
+
+.highfiveracoon {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 4px solid #212121;
+  border-radius: 15px;
+}
+
+.mladyracoon {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 4px solid #212121;
+  border-radius: 15px;
+}
+
+.painterracoon {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 4px solid #212121;
+  border-radius: 15px;
 }
