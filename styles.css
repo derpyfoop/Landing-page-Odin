@@ -84,6 +84,7 @@
   display: flex;
   font-size: 36px;
   font-weight: bolder;
+  color: white;
 }
 
 .the-bois-list{
@@ -95,12 +96,13 @@
   gap: 60px;
   font-size: 18px;
   text-align:center;
+  color: white;
 }
 
 .cakeracoon {
   display: flex;
   height: 150px;
-  border: 4px solid #212121;
+  border: 4px solid white;
   border-radius: 15px;
 }
 
@@ -108,7 +110,7 @@
   display: flex;
   height: 150px;
   width: 150px;
-  border: 4px solid #212121;
+  border: 4px solid white;
   border-radius: 15px;
 }
 
@@ -116,7 +118,7 @@
   display: flex;
   height: 150px;
   width: 150px;
-  border: 4px solid #212121;
+  border: 4px solid white;
   border-radius: 15px;
 }
 
@@ -124,7 +126,7 @@
   display: flex;
   height: 150px;
   width: 150px;
-  border: 4px solid #212121;
+  border: 4px solid white;
   border-radius: 15px;
 }
 
@@ -141,11 +143,13 @@
   display: flex;
   font-size: 39px;
   font-style: italic;
+  color: white;
 }
 
 .about-author {
   font-size: 22px;
   margin-left: 800px;
+  color: white;
 }
 
 /* contact */
@@ -161,8 +165,54 @@
 .contact-header {
   display: flex;
   font-size: 28px;
+  color: white;
 }
 
 .contact-list {
   list-style: none;
+  color: white;
+}
+
+/* call to action*/
+
+.call-to-action-container {
+  display: flex;
+  background-color: #212121;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background: #424242;
+  color: white;
+  width: 85%;
+  margin: auto;
+  border-radius: 7px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.call-to-action-button {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+/*footer*/
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #212121;
+}
+
+.footer-text {
+  display: flex;
+  color: white;
 }
