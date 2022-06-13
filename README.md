@@ -1,2 +1,5 @@
 # Landing-page-Odin
-A landing-page project I will be doing to test what I have learnt trough the odin project.
+Landing page done for the odin project in order to test my HTML and CSS skills that I have learnt to this point.
+This project has been completed
+
+Images belong to @raccoonhourly on twitter and shuttersport.
