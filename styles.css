@@ -1,6 +1,5 @@
 * {
-  font-family: roboto;
-
+  font-family: helvetica;
 }
 
 .header-container {
@@ -26,6 +25,42 @@
   align-items:center;
   font-size: 20px;
   color: white;
+}
 
+.hero-container {
+  display: flex;
+  background-color: #808080;
+  justify-content: space-between;
+}
 
+.hero-main-text {
+  display: flex;
+  font-size: 50px;
+  font-weight:bolder;
+  color: white;
+}
+
+.hero-sub-text {
+  display: flex;
+  font-size: 22px;
+  color: white;
+}
+
+.hero-button {
+  display: flex;
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  margin-left: 250px;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+
+.hero-racoonimg {
+  display: flex;
+  height: auto;
+  width: 900px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
