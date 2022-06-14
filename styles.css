@@ -77,6 +77,7 @@
 .the-bois-container {
   display: flex;
   background-color: #9E9E9E;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
 }
@@ -91,9 +92,8 @@
 .the-bois-list{
   display: flex;
   list-style: none;
-  margin-top: 100px;
-  margin-right: 80px;
-  padding-bottom: 50px;
+  margin-left: 0px;
+  padding: 0px;
   gap: 60px;
   font-size: 18px;
   text-align:center;
